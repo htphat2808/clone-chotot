@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="assets/css/design-sytem.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <style>
-      .bg-login {
-        background: url(https://static.chotot.com/storage/assets/LOGIN/login_desktop_background.webp)
-          no-repeat center bottom;
-        background-size: cover;
+      .bg-container {
+        background: url(img/bgchotot.jpeg) no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
       }
     </style>
   </head>
@@ -19,20 +19,20 @@
     <!-- header -->
     <div class="bg-orange-1">
       <header class="container">
-        <div class="row align-items-center content-between">
-          <div class="col my-5">
-            <a href="index.html">
-              <img
-                src="img-chotot/logo.webp"
-                alt="chotot-logo"
-                class="icon-size-logo-1"
-              />
-            </a>
-          </div>
+        <div
+          class="row align-items-center content-between mx-10 cursor-pointer"
+        >
+          <a href="index.html" class="col my-5">
+            <img
+              src="img-chotot/logo.webp"
+              alt="chotot-logo"
+              class="icon-size-logo-1 filter"
+            />
+          </a>
           <div class="flex content-between">
             <div class="my-14 mx-24">
               <a
-                href="index.html"
+                href=""
                 class="flex align-items-center content-center mx-25 opacity-05"
               >
                 <img
@@ -45,7 +45,7 @@
             </div>
             <div class="my-14 mx-24">
               <a
-                href="#"
+                href="login.html"
                 class="flex align-items-center content-center mx-25 opacity-05"
               >
                 <img
@@ -58,7 +58,7 @@
             </div>
             <div class="my-14 mx-24">
               <a
-                href=""
+                href="login.html"
                 class="flex align-items-center content-center opacity-05"
               >
                 <img
@@ -71,7 +71,7 @@
             </div>
             <div class="my-14 mx-24">
               <a
-                href=""
+                href="login.html"
                 class="flex align-items-center content-center opacity-05"
               >
                 <img
@@ -90,6 +90,7 @@
                   class="icon-size-18 mx-right-12"
                 />
                 <span class="fs-14 text-black">Thêm</span>
+                <!--more-->
                 <div class="more-1">
                   <div class="p-10">
                     <div class="mb-20">
@@ -255,11 +256,12 @@
                     </div>
                   </div>
                 </div>
+                <!--end more-->
               </a>
             </div>
           </div>
         </div>
-        <div class="row content-between align-items-center pb-10">
+        <div class="row content-between align-items-center px-10 pb-10">
           <div
             class="flex bg-white input-search align-items-center content-between border-radius-4"
           >
@@ -270,14 +272,14 @@
             />
             <img
               src="img/icon-search.svg"
-              class="icon-size mx-10"
+              class="icon-size mx-10 cursor-pointer"
               alt="icon-search"
             />
           </div>
 
           <div class="col my-14 mx-right-30">
             <a
-              href=""
+              href="login.html"
               class="flex align-items-center content-center mx-25 opacity-05"
             >
               <img
@@ -290,7 +292,10 @@
           </div>
           <button class="bg-orange-2 border-none opacity-05">
             <div class="px-5 py-5">
-              <a href="" class="flex align-items-center content-center">
+              <a
+                href="login.html"
+                class="flex align-items-center content-center"
+              >
                 <img
                   src="img/icon-news.svg"
                   alt="icon-news"
@@ -304,93 +309,150 @@
       </header>
     </div>
     <!-- end header -->
-    <!--container -->
-    <div class="border-bottom-2">
-      <div class="container bg-login py-20">
+    <div class="bg-smoke-white">
+      <div class="container bg-white py-20">
         <div class="row">
-          <div class="col-4">
-            <span class="fs-12">Trang chủ >> Đăng nhập</span>
+          <div class="col-7 mx-10">
+            <div class="flex align-items-center content-between mx-10">
+              <span class="fs-12 symbol text-blue-2">Chợ Tốt</span>
+              <span class="fs-12 symbol text-blue-2">Điện thoại</span>
+              <span class="fs-12 symbol text-blue-2">Apple iPhone 11</span>
+              <span class="fs-12 text-blue-2"
+                >Apple iPhone 11 Tp Hồ Chí Minh</span
+              >
+            </div>
           </div>
-          <div class="col-4 bg-white border-2 border-radius-8">
-            <div class="p-20">
-              <div class="flex content-between align-items-center my-40">
-                <div>
-                  <h1 class="text-orange-1 fs-20 a">Đăng nhập</h1>
-                  <p class="text-gray-2 fs-14">Chào bạn quay lại</p>
-                </div>
-                <div>
-                  <a href="#">
-                    <img
-                      src="https://static.chotot.com/storage/assets/LOGIN/logo.svg"
-                      alt="Avatar"
-                      class="icon-size-small"
-                    />
+          <div class="col-5 text-right mx-20">
+            <button class="bg-smoke-white border-none mx-10 border-radius-14">
+              <p class="fs-14 mx-left-20 mx-5">Về danh sách</p>
+            </button>
+            <button class="bg-orange-1 border-none border-radius-14">
+              <p class="fs-14 mx-right-20 mx-5">Tin tiếp</p>
+            </button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-7">
+            <div class="slider mx-20 bg-smoke-white">
+              <div class="slider-arrow slider-arrow--left border-radius-4">
+                <img
+                  src="img/icon-arrow-left.svg"
+                  alt="icon-arrow-left"
+                  class="icon-size-large icon-filter-invert"
+                />
+              </div>
+              <div class="slider-arrow slider-arrow--right border-radius-4">
+                <img
+                  src="img/icon-arrow-right-b.svg"
+                  alt="icon-arrow-right"
+                  class="icon-size-large icon-filter-invert"
+                />
+              </div>
+              <div class="slider-list-dots">
+                <span class="slider-dot active"></span>
+                <span class="slider-dot"></span>
+                <span class="slider-dot"></span>
+                <span class="slider-dot"></span>
+                <span class="slider-dot"></span>
+                <span class="slider-dot"></span>
+              </div>
+              <div class="slider-item">
+                <a href="" class="mx-56">
+                  <img src="img-chotot/iphone11.jpg" class="scale-vertical-1" />
+                </a>
+              </div>
+            </div>
+            <div class="mx-20">
+              <h3>iPhone 11 Red 64Gb zin full chức năng</h3>
+              <div class="flex content-between align-items-center text-red-2">
+                <b class="fs-16 text-red-1">7.789.000 đ</b>
+                <button
+                  class="flex content-between align-items-center border-red-1 bg-white border-radius-14"
+                >
+                  <p class="mx-5 fs-14 text-red-1 cursor-pointer">Lưu tin</p>
+                  <a href="">
+                    <img src="img/icon-heart.svg" alt="" class="icon-size-18" />
                   </a>
-                </div>
+                </button>
               </div>
               <div>
-                <form action="">
-                  <input
-                    type="text"
-                    placeholder="Nhập SĐT của bạn"
-                    name="uname"
-                    class="width-100-100 p-8 mb-20 border-radius-4 border-1 text-gray-2"
-                  />
-                  <input
-                    type="password"
-                    placeholder="Nhập mật khẩu của bạn"
-                    name="psw"
-                    class="width-100-100 p-8 mb-20 border-radius-4 border-1 text-gray-2"
-                  />
-
-                  <div class="content-center">
-                    <button
-                      type="submit"
-                      class="p-8 width-100-100 border-radius-4 border-none text-white bg-gray-2"
-                    >
-                      Đăng nhập
-                    </button>
-                  </div>
-                </form>
-                <p class="text-center fs-12">
-                  <a href="#" class="text-blue-2">Bạn quên mật khẩu?</a>
+                <p>Tên máy : iPhone 12</p>
+                <p>Màu sắc : Màu Đỏ</p>
+                <p>Số sim : 1 sim vật lý</p>
+                <p>Xuất xứ : xách tay Mỹ</p>
+                <p>
+                  Phiên bản. : Lock Mỹ - đã add ICCID xài như quốc tế - không
+                  cần xài sim ghép, thay sim thoải mái
                 </p>
-                <div class="mt-20 text-center">
-                  <p class="fs-12">hoặc sử dụng</p>
-                  <div>
-                    <a href="#">
-                      <img
-                        src="img/icon-facebook-2.svg"
-                        alt="icon-facebook-2"
-                        class="icon-size-32 filter"
-                      />
-                    </a>
-                    <a href="#">
-                      <img
-                        src="img/icon-youtube.svg"
-                        alt="icon-youtube"
-                        class="icon-size-32 filter mx-10"
-                      />
-                    </a>
-                    <a href="#">
-                      <img
-                        src="img/icon-twitter.svg"
-                        alt="icon-twitter"
-                        class="icon-size-32 filter"
-                      />
-                    </a>
-                  </div>
-                  <p class="fs-12">Chưa có tài khoản? Đăng ký ngay</p>
+                <p>Bộ nhớ máy :64Gb</p>
+                <p>Face ID nhạy , chụp hình đẹp</p>
+                <p>Pin : tạm (80%) khá là ổn</p>
+                <p>Ngoại hình :99% tổng thể đẹp (sườn đẹp màn hình đẹp )</p>
+                <p>Tình trạng : Full chức năng, full zjn ,zin ốc đích</p>
+                <p>Bao ace thầy thợ qua kiểm tra</p>
+                <p>Giá : 7.789tr</p>
+                <a href="" class="text-blue-2">Nhấn để hiện số: 090277 ***</a>
+              </div>
+              <div class="row content-between align-items-center">
+                <div class="col">
+                  <a href="" class="flex align-items-center">
+                    <img src="img-chotot/tem.png" class="icon-size-24" alt="" />
+                    <p class="mx-10 text-black">Hãng: Samsung</p>
+                  </a>
+                  <a href="" class="flex align-items-center">
+                    <img
+                      src="img-chotot/tinhtrang.png"
+                      class="icon-size-24"
+                      alt=""
+                    />
+                    <p class="mx-10 text-black">Tình trạng: Mới</p>
+                  </a>
+                  <a href="" class="flex align-items-center">
+                    <img
+                      src="img-chotot/mausac.png"
+                      class="icon-size-24"
+                      alt=""
+                    />
+                    <p class="mx-10 text-black">Màu sắc: Đen</p>
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="" class="flex align-items-center">
+                    <img
+                      src="img-chotot/dongmay.png"
+                      class="icon-size-24"
+                      alt=""
+                    />
+                    <p class="mx-10 text-black">
+                      Dòng máy: iphone 11 xanh mint
+                    </p>
+                  </a>
+                  <a href="" class="flex align-items-center">
+                    <img
+                      src="img-chotot/baohanh.png"
+                      class="icon-size-24"
+                      alt=""
+                    />
+                    <p class="mx-10 text-black">
+                      Tình trạng bảo hành: Còn bảo hành
+                    </p>
+                  </a>
+                  <a href="" class="flex align-items-center">
+                    <img
+                      src="img-chotot/dungluong.png"
+                      class="icon-size-24"
+                      alt=""
+                    />
+                    <p class="mx-10 text-black">Dung lượng: 64 GB</p>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-4"></div>
+          <div class="col-5"></div>
         </div>
       </div>
     </div>
-    <!--  end container-->
-    <!--footer-->
     <footer>
       <div class="bg-white border-bottom-2">
         <div class="container">

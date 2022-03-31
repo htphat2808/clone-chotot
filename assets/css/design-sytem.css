@@ -210,6 +210,10 @@ h6 {
 .width-50-100 {
   width: 50%;
 }
+.width-90-100 {
+  width: 90%;
+  box-sizing: border-box;
+}
 .width-100-100 {
   width: 100%;
   box-sizing: border-box;

@@ -66,6 +66,11 @@
   height: 35px;
 }
 
+.icon-size-50-16{
+  width: 50px;
+  height: 16px;
+}
+
 /*slier*/
 .slider {
   position: relative;

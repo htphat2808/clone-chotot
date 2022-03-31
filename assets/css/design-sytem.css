@@ -745,6 +745,10 @@ h6 {
   width: 10px;
   height: 10px;
 }
+.icon-size-14 {
+  width: 14px;
+  height: 14px;
+}
 .icon-size-18 {
   width: 18px;
   height: 18px;
@@ -770,6 +774,10 @@ h6 {
 .icon-size-60 {
   width: 60px;
   height: 60px;
+}
+.icon-size-80 {
+  width:80px;
+  height: 80px;
 }
 .icon-filter-invert {
   filter: invert(1);

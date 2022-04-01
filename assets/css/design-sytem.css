@@ -797,8 +797,8 @@ h6 {
 /* effect */
 
 .scale-vertical {
-  height: 232px;
-  width: 936px;
+
+  width: auto;
   object-fit: cover;
 }
 .scale-vertical-1 {

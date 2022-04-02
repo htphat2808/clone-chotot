@@ -812,6 +812,11 @@ h6 {
 .opacity-gray:hover {
   background-color: var(--gray-color-2);
 }
+.opacity-blue-1:hover {
+  background-color: var(--blue-color-1) 
+  ;
+
+}
 
 .opacity-05:hover {
   opacity: 0.5;

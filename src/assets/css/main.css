@@ -77,12 +77,12 @@
 /*slier*/
 .slider {
   position: relative;
-  width: 93%;
+
 }
 
 .slider-item {
   position: relative;
-  max-width: 10%;
+  max-width: 100%;
   width: 100%;
 }
 

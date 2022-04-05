@@ -808,7 +808,8 @@ h6 {
 
 .scale-vertical {
 
-  width: auto;
+  width: 100%;
+  max-width: 100%;
   object-fit: cover;
 }
 .scale-vertical-1 {

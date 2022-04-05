@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="16" viewBox="0 0 50 16">
+    <defs>
+        <linearGradient id="orfe7ykdoa" x1="0%" x2="100%" y1="52.368%" y2="48.09%">
+            <stop offset="0%" stop-color="#E64B00"/>
+            <stop offset="27.844%" stop-color="#FF7300" stop-opacity=".9"/>
+            <stop offset="100%" stop-color="#FE9900"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g transform="translate(-460.000000, -1067.000000) translate(120.000000, 959.000000) translate(0.000000, 84.000000) translate(328.000000, 12.000000) translate(12.000000, 12.000000)">
+                            <rect width="50" height="16" fill="url(#orfe7ykdoa)" fill-opacity=".9" rx="2"/>
+                            <text fill="#FFF" font-family="Helvetica-Bold, Helvetica" font-size="10" font-weight="bold">
+                                <tspan x="4.446" y="12">ĐỐI TÁC</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

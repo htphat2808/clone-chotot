@@ -160,6 +160,16 @@ h6 {
 .inline-block {
   display: inline-block;
 }
+.fixed{
+  position: fixed;
+}
+.sticky{
+  position: sticky;
+}
+
+.top-0 {
+  top: 0
+}
 
 .content-between {
   justify-content: space-between;

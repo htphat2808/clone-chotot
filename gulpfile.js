@@ -27,8 +27,8 @@ async function minifyCss() {
 // Copy assets after build
 async function copyAssets() {
   gulp
-    .src([paths.scripts.src + "assets/**/*"])
-    .pipe(gulp.dest(paths.scripts.dest + "assets/"));
+    .src([paths.scripts.src + "assets/img/**/*"])
+    .pipe(gulp.dest(paths.scripts.dest + "assets/img"));
 }
 
 async function includeHTML() {

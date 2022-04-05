@@ -813,9 +813,11 @@ h6 {
   object-fit: cover;
 }
 .scale-vertical-1 {
-  height: 426px;
-  width: 340px;
-  margin-left: 100%;
+  
+  width: 80%;
+  max-width: 100%;
+
+  
 }
 .opacity-1 {
   opacity: 1;

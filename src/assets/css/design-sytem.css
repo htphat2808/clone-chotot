@@ -812,13 +812,7 @@ h6 {
   max-width: 100%;
   object-fit: cover;
 }
-.scale-vertical-1 {
-  
-  width: 80%;
-  max-width: 100%;
 
-  
-}
 .opacity-1 {
   opacity: 1;
 }
@@ -833,10 +827,13 @@ h6 {
 
 .opacity-05:hover {
   opacity: 0.5;
+  border: 1px solid var(--gray-color-2)
+  ;
 }
 
 .opacity-05-hover:hover {
   opacity: 0.5;
+ 
 }
 filter:hover .filter {
   position: relative;

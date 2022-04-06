@@ -1,0 +1,38 @@
+@import "variables";
+@import "mixins";
+@import "components";
+
+@include generate-classes($text-aligns, "text-align", "text");
+@include generate-classes($align-items, "align-items", "align-items");
+@include generate-classes($justify-content, "justify-content", "content");
+@include generate-classes($shadows, "box-shadow", "shadow");
+
+@include generate-color-classes($colors, "color", "text");
+@include generate-color-classes($colors, "background-color", "bg-color");
+@include generate-color-classes($colors, "border-color", "bd-color");
+
+@include generate-size-classes($font-sizes, "font-size", "fs");
+@include generate-size-classes($spacing-sizes, "margin", "mg");
+@include generate-size-classes-for-two-properties(
+  $spacing-sizes,
+  "margin-top",
+  "margin-bottom",
+  "mgy"
+);
+@include generate-size-classes-for-two-properties(
+  $spacing-sizes,
+  "margin-left",
+  "margin-right",
+  "mgx"
+);
+@include generate-size-classes($spacing-sizes, "margin-top", "mgt");
+@include generate-size-classes($spacing-sizes, "margin-bottom", "mgb");
+@include generate-size-classes($spacing-sizes, "margin-left", "mgl");
+@include generate-size-classes($spacing-sizes, "margin-right", "mgr");
+@include generate-size-classes($spacing-sizes, "padding", "pd");
+@include generate-size-classes($content-sizes, "width", "w");
+@include generate-size-classes($content-sizes, "width", "wp", "%");
+@include generate-size-classes($content-sizes, "height", "h");
+@include generate-size-classes($content-sizes, "height", "hp", "%");
+@include generate-size-classes($content-sizes, "border-radius", "bdrd");
+@include generate-size-classes($content-sizes, "border-radius", "bdrd" "%");

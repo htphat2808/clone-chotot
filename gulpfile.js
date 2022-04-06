@@ -4,6 +4,8 @@ const server = require("browser-sync").create();
 const { watch, series } = require("gulp");
 const cleanCSS = require("gulp-clean-css");
 const clean = require("gulp-clean");
+const sass = require("gulp-sass")(require("sass"));
+sass.compiler = require("node-sass");
 
 const paths = {
   scripts: {
@@ -15,6 +17,15 @@ const paths = {
 // Reload Server
 async function reload() {
   server.reload();
+}
+
+// Sass compiler
+async function compileSass() {
+  gulp
+    .src(paths.scripts.src + "assets/scss/**/*.scss")
+    // .pipe(sass.sync({ outputStyle: "compressed" }).on("error", sass.logError))
+    .pipe(sass().on("error", sass.logError))
+    .pipe(gulp.dest(paths.scripts.dest + "assets/css"));
 }
 
 async function minifyCss() {
@@ -52,6 +63,7 @@ async function cleanBuildFolder() {
 // Build files html and reload server
 async function buildAndReload() {
   //await cleanBuildFolder();
+  await compileSass();
   await includeHTML();
   await minifyCss();
   await copyAssets();
@@ -66,6 +78,8 @@ exports.default = async function () {
     },
   });
   // await cleanBuildFolder();
+  // Watch Sass task
+  watch(paths.scripts.src + "assets/scss/**/*.scss", series(compileSass));
   // Build and reload at the first time
   buildAndReload();
   // Watch task

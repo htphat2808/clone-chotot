@@ -1,0 +1,43 @@
+$colors: (
+  "primary": #de561b,
+  "secondary": #fff,
+  "white-smoke": #f5f5f5,
+  "black": #000,
+  "red-1": #c90927,
+  "gray-1": #f4f4f4,
+  "gray-2": #b7b7b8,
+  "orange-1": #ffba00,
+  "orange-2": #fe9900,
+  "orange-3": #fff7ea,
+  "blue-1": #1964ba,
+  "green-1": rgb(51, 168, 55),
+);
+
+$justify-content: (
+  "between": space-between,
+  "start": flex-start,
+  "end": flex-end,
+  "center": center,
+  "around ": space-around,
+);
+$text-aligns: (
+  "top": top,
+  "right": right,
+  "center": center,
+  "left": left,
+);
+$align-items: (
+  "between": space-between,
+  "start": flex-start,
+  "end": flex-end,
+  "center": center,
+  "around ": space-around,
+);
+
+$shadows: (
+  "down-1": 0 2px 2px rgba(0, 0, 0, 0.1),
+);
+
+$font-sizes: 40;
+$spacing-sizes: 50;
+$content-sizes: 100;

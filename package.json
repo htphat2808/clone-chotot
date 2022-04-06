@@ -25,6 +25,9 @@
     "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0",
     "gulp-clean-css": "^4.3.0",
-    "gulp-file-include": "^2.3.0"
+    "gulp-file-include": "^2.3.0",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^7.0.1",
+    "sass": "^1.49.11"
   }
 }

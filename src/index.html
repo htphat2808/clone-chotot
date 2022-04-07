@@ -5,10 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chotot</title>
-    <link rel="stylesheet" href="assets/css/design-sytem.css" />
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
     <style>
-      .bg-container {
+      .background-container {
         background: url(assets/img/bgchotot.jpeg) no-repeat;
         background-size: 100%;
         background-attachment: fixed;
@@ -23,13 +22,15 @@
     @@include('./sections/header.html')
     <!-- end header -->
     <!--container -->
-    <div class="bg-container">
+    <div class="background-container">
       @@include('./sections/slide-uu-dai.html')
       @@include('./sections/kham-pha-danh-muc.html')
       @@include('./sections/tin-danh-cho-ban.html')
       @@include('./sections/gioi-thieu-cho-tot.html')
     </div>
-    <div class="bg-smoke-white"><button class="border-none"></button></div>
+    <div class="bg-color-smoke-white">
+      <button class="border-none"></button>
+    </div>
     @@include('./sections/footer.html')
   </body>
 </html>

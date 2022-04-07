@@ -1,7 +1,7 @@
 $colors: (
   "primary": #de561b,
   "secondary": #fff,
-  "white-smoke": #f5f5f5,
+  "smoke-white": #f5f5f5,
   "black": #000,
   "red-1": #c90927,
   "gray-1": #f4f4f4,
@@ -40,4 +40,6 @@ $shadows: (
 
 $font-sizes: 40;
 $spacing-sizes: 50;
-$content-sizes: 100;
+$spacing-sizes-percent: 100;
+$content-sizes: 200;
+$content-sizes-percent: 100;

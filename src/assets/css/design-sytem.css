@@ -807,7 +807,6 @@ h6 {
 /* effect */
 
 .scale-vertical {
-
   width: 100%;
   max-width: 100%;
   object-fit: cover;
@@ -827,8 +826,7 @@ h6 {
 
 .opacity-05:hover {
   opacity: 0.5;
-  border: 1px solid var(--gray-color-2)
-  ;
+
 }
 
 .opacity-05-hover:hover {

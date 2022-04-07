@@ -1,5 +1,7 @@
 @import "variables";
 @import "mixins";
+@import "base";
+@import "grid";
 @import "components";
 
 @include generate-classes($text-aligns, "text-align", "text");
@@ -31,8 +33,13 @@
 @include generate-size-classes($spacing-sizes, "margin-right", "mgr");
 @include generate-size-classes($spacing-sizes, "padding", "pd");
 @include generate-size-classes($content-sizes, "width", "w");
-@include generate-size-classes($content-sizes, "width", "wp", "%");
+@include generate-size-classes($content-sizes-percent, "width", "wp", "%");
 @include generate-size-classes($content-sizes, "height", "h");
-@include generate-size-classes($content-sizes, "height", "hp", "%");
-@include generate-size-classes($content-sizes, "border-radius", "bdrd");
-@include generate-size-classes($content-sizes, "border-radius", "bdrd" "%");
+@include generate-size-classes($content-sizes-percent, "height", "hp", "%");
+@include generate-size-classes($content-sizes, "border-radius", "br");
+@include generate-size-classes(
+  $content-sizes-percent,
+  "border-radius",
+  "brp",
+  "%"
+);

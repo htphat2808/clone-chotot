@@ -89,6 +89,7 @@
   width: 84px;
   height: 82px;
 }
+
 .icon-size-logo-3 {
   width: 114px;
   height: 35px;
@@ -100,4 +101,179 @@
 .icon-size-50-16 {
   width: 50px;
   height: 16px;
+}
+.icon-filter-invert {
+  filter: invert(1);
+}
+
+.icon-size-tb .icon-filter-invert {
+  filter: invert(1);
+}
+
+/*bg-conten*/
+.bg-login {
+  background: url(https://static.chotot.com/storage/assets/LOGIN/login_desktop_background.webp)
+    no-repeat center bottom;
+  background-size: cover;
+}
+.bg-color-header {
+  background-color: #2561cf;
+}
+.background-container {
+  background: url(assets/img/bgchotot.jpeg) no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+#more {
+  display: none;
+}
+/* effect */
+
+.scale-vertical {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.opacity-1 {
+  opacity: 1;
+}
+.opacity-gray:hover {
+  background-color: var(--gray-color-2);
+}
+.opacity-blue-1:hover {
+  background-color: var(--blue-color-1);
+}
+
+.opacity-05:hover {
+  opacity: 0.5;
+}
+
+.opacity-05-hover:hover {
+  opacity: 0.5;
+}
+filter:hover .filter {
+  position: relative;
+}
+
+.filter:hover::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.1);
+  z-index: 1;
+}
+
+/* border */
+.border-none {
+  border: none;
+}
+
+.border-1 {
+  border: 1px solid var(--gray-color-2);
+}
+.border-2 {
+  border: 1px solid var(--gray-color-2);
+}
+
+.border-right-1 {
+  border-right: 1px solid var(--gray-color-2);
+}
+
+.border-red-1 {
+  border: 1px solid var(--red-color-1);
+}
+.border-top-1 {
+  border-top: 1px solid var(--smoke-white-color);
+}
+.border-top-2 {
+  border-top: 2px solid var(--smoke-white-color);
+}
+
+.border-bottom-1 {
+  border-bottom: 1px solid var(--smoke-white-color);
+}
+.border-bottom-2 {
+  border-bottom: 2px solid var(--smoke-white-color);
+}
+.border-bottom-3 {
+  border-bottom: 3px solid var(--primary-color);
+}
+.border-bottom-gray {
+  border-bottom: 1px solid var(--gray-color-1);
+}
+.border-bottom-gray-2 {
+  border-bottom: 10px outset var(--gray-color-1);
+}
+.border-radius-2 {
+  border-radius: 2px;
+}
+.border-radius-4 {
+  border-radius: 4px;
+}
+.border-radius-8 {
+  border-radius: 8px;
+}
+.border-radius-10 {
+  border-radius: 10px;
+}
+.border-radius-12 {
+  border-radius: 12px;
+}
+.border-radius-14 {
+  border-radius: 14px;
+}
+.border-radius-50 {
+  border-radius: 50%;
+}
+.border-bottom-left-radius {
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.border-gray-1 {
+  border-color: 1 solid var(--gray-color-1);
+}
+.border-gray-2 {
+  border-color: 1 solid var(--gray-color-2);
+}
+/*mxr-mxl*/
+
+.mx-left-10 {
+  margin-left: 10px !important;
+}
+.mx-left-20 {
+  margin-left: 20px !important;
+}
+.mx-left-30 {
+  margin-left: 30px !important;
+}
+.mx-right-5 {
+  margin-right: 5px !important;
+}
+.mx-right-10 {
+  margin-right: 10px !important;
+}
+.mx-right-12 {
+  margin-right: 12px !important;
+}
+.mx-right-14 {
+  margin-right: 14px !important;
+}
+.mx-right-20 {
+  margin-right: 20px !important;
+}
+.mx-right-30 {
+  margin-right: 30px !important;
+}
+.mx-right-40 {
+  margin-right: 40px !important;
+}
+
+.mx-right-180 {
+  margin-right: 180px !important;
+}
+.mx-right-30 {
+  margin-right: 30px !important;
 }

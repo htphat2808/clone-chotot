@@ -23,11 +23,6 @@
     display: flex;
     padding: 10px 2px;
     opacity: 0.5;
-  }
-  &:hover {
-    .slider-arrow {
-      opacity: 1;
-    }
     .slider {
       .slider-arrow--left {
         left: 0;
@@ -36,6 +31,11 @@
       .slider-arrow--right {
         right: 0;
       }
+    }
+  }
+  &:hover {
+    .slider-arrow {
+      opacity: 1;
     }
   }
   .slider-list-dots {

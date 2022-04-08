@@ -1,4 +1,5 @@
 .slider {
+  position: relative;
   .slider-item {
     position: relative;
     max-width: 100%;
@@ -23,16 +24,15 @@
     display: flex;
     padding: 10px 2px;
     opacity: 0.5;
-    .slider {
-      .slider-arrow--left {
-        left: 0;
-        transform: translateY(-50%);
-      }
-      .slider-arrow--right {
-        right: 0;
-      }
+    &--left {
+      left: 0;
+      transform: translateY(-50%);
+    }
+    &--right {
+      right: 0;
     }
   }
+
   &:hover {
     .slider-arrow {
       opacity: 1;

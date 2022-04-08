@@ -32,6 +32,22 @@
 @include generate-size-classes($spacing-sizes, "margin-left", "mgl");
 @include generate-size-classes($spacing-sizes, "margin-right", "mgr");
 @include generate-size-classes($spacing-sizes, "padding", "pd");
+@include generate-size-classes-for-two-properties(
+  $spacing-sizes,
+  "padding-top",
+  "padding-bottom",
+  "pdy"
+);
+@include generate-size-classes-for-two-properties(
+  $spacing-sizes,
+  "padding-left",
+  "padding-right",
+  "pdx"
+);
+@include generate-size-classes($spacing-sizes, "padding-top", "pdt");
+@include generate-size-classes($spacing-sizes, "padding-bottom", "pdb");
+@include generate-size-classes($spacing-sizes, "padding-left", "pdl");
+@include generate-size-classes($spacing-sizes, "padding-right", "pdr");
 @include generate-size-classes($content-sizes, "width", "w");
 @include generate-size-classes($content-sizes-percent, "width", "wp", "%");
 @include generate-size-classes($content-sizes, "height", "h");

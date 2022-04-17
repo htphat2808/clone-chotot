@@ -59,3 +59,64 @@
   "brp",
   "%"
 );
+
+/*responsive*/
+@include responsive_320 {
+  .container {
+    margin: 0px 10px;
+  }
+
+  .content,
+  .sidebar {
+    float: none;
+    width: 100%;
+  }
+}
+
+@include responsive_375 {
+  .container {
+    margin: 0px 10px;
+  }
+
+  .content,
+  .sidebar {
+    float: none;
+    width: 100%;
+  }
+}
+
+@include responsive_425 {
+  .container {
+    margin: 0px 10px;
+  }
+
+  .content,
+  .sidebar {
+    float: none;
+    width: 100%;
+  }
+}
+
+@include responsive_768 {
+  .container {
+    margin: 0px 10px;
+  }
+}
+
+@include responsive_992 {
+  .container {
+    margin: 0px 10px;
+  }
+}
+
+@include responsive_1024 {
+  .container {
+    margin: 0px 10px;
+  }
+}
+
+@include responsive_1200 {
+  .container {
+    margin: 0px 10px;
+  }
+}

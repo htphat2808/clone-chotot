@@ -7,6 +7,7 @@
 @include generate-classes($text-aligns, "text-align", "text");
 @include generate-classes($align-items, "align-items", "align-items");
 @include generate-classes($justify-content, "justify-content", "content");
+@include generate-classes($flex-wraps, "flex-wrap", "flex");
 @include generate-classes($shadows, "box-shadow", "shadow");
 
 @include generate-color-classes($colors, "color", "text");
@@ -61,50 +62,3 @@
 );
 
 /*responsive*/
-@include responsive_320 {
-  .container {
-    margin: 0px 10px;
-  }
-
-  .content,
-  .sidebar {
-    float: none;
-    width: 100%;
-  }
-}
-
-@include responsive_375 {
-  .container {
-    margin: 0px 10px;
-  }
-
-  .content,
-  .sidebar {
-    float: none;
-    width: 100%;
-  }
-}
-
-@include responsive_425 {
-  .container {
-    margin: 0px 10px;
-  }
-
-  .content,
-  .sidebar {
-    float: none;
-    width: 100%;
-  }
-}
-
-@include responsive_768 {
-  .container {
-    margin: 0px 10px;
-  }
-}
-
-@include responsive_992 {
-  .container {
-    margin: 0px 10px;
-  }
-}

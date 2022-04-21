@@ -87,6 +87,7 @@ exports.default = async function () {
     [
       paths.scripts.src + "*.html",
       paths.scripts.src + "sections/*.html",
+      paths.scripts.src + "components/*.html",
       paths.scripts.src + "assets/**/*",
     ],
     series(buildAndReload)

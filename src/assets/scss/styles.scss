@@ -96,3 +96,15 @@
     width: 100%;
   }
 }
+
+@include responsive_768 {
+  .container {
+    margin: 0px 10px;
+  }
+}
+
+@include responsive_992 {
+  .container {
+    margin: 0px 10px;
+  }
+}

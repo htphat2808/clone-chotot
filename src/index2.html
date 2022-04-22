@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chotot</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <style>
+      .background-container {
+        background: url(assets/img/bgchotot.jpeg) no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+      }
+      #more {
+        display: none;
+      }
+    </style>
   </head>
   <body>
     <!-- header -->
@@ -14,6 +24,9 @@
     <!--container -->
     <div class="background-container">
       @@include('./sections/slide-uu-dai-2.html')
+      @@include('./sections/kham-pha-danh-muc.html')
+      @@include('./sections/tin-danh-cho-ban.html')
+      @@include('./sections/gioi-thieu-cho-tot.html')
     </div>
     @@include('./sections/footer.html')
   </body>

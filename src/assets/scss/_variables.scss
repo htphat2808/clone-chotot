@@ -39,6 +39,15 @@ $flex-wraps: (
   "nowrap": nowrap,
   "wrap-reverse": wrap-reverse,
 );
+$displays: (
+  "none": none,
+  "block": block,
+  "inline": inline,
+  "inline-block": inline-block,
+  "flex": flex,
+  "grid": grid,
+  "table": table,
+);
 
 $shadows: (
   "down-1": 0 2px 2px rgba(0, 0, 0, 0.1),
